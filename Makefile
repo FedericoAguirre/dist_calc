@@ -9,7 +9,7 @@ build : test
 	cargo run
 
 deploy: test
-	cargo deploy -r
+	cargo build -r
 
 clean :
 	rm -R target

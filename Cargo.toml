@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Federico Aguirre <federico.aguirre.cardiel@gmail.com>"]
 rust-version = "1.65.0"
+description = "dist_calc is a CLI application that calculates the distance between geopositions contained in a file."
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

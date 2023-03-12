@@ -10,6 +10,7 @@ build : test
 
 deploy: test
 	cargo build -r
+	./target/release/dist_calc --help
 
 clean :
 	rm -R target

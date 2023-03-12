@@ -9,3 +9,4 @@ description = "dist_calc is a CLI application that calculates the distance betwe
 
 [dependencies]
 clap = { version = "4.1.8", features = ["derive"] }
+polars = "0.27.2"

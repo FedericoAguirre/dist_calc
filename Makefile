@@ -6,7 +6,7 @@ test : fmt
 	cargo test
 
 build : test
-	cargo run
+	cargo run -- --input files/input/5km.csv --output files/ouput/5k_dist.csv
 
 deploy: test
 	cargo build -r

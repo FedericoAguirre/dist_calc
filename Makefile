@@ -1,7 +1,7 @@
 fmt :
 	rustfmt src/main.rs
 	rustfmt src/lib.rs
-	rustfmt tests/integration_test.rs
+	rustfmt tests/unit_tests.rs
 
 test : fmt
 	cargo test
